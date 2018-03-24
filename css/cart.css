@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.qty label{
+    font-weight: normal;
+    line-height: 2.4rem;
+}
+.qty span,
+.qty .num{
+    width: 2.6rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+}
+.c_bg{
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #fff;
+}
+.payment{
+    background: #ec7756;
+    padding: .5rem 0;
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    width: 90%;
+    cursor: pointer;
+}
+.c_bg label{
+    margin-top: .6rem;
+}
+.c_bg [class^='col']{
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.c_bg .form-control{
+    display: inline-block;
+    width: 90%;
+}
+.jf em{
+    padding-left: .2rem;
+}
+.jf p{
+    line-height: 2rem;
+    margin-top: .5rem;
+    margin-bottom: 0;
+}
+/*cart_footer*/
+.cart_foot{
+    background: rgba(255,255,255,.8);
+    border-top: 1px solid #ddd;
+    height: 4rem;
+    line-height: 4rem;
+}
+.cart_foot [class^='col']{
+    padding-right: .3rem;
+    padding-left: .3rem;
+}
+.cart_btn{
+    background: #ec7756;
+}
+.cart_btn a{
+    display: block;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.cart_btn a:hover{
+    text-decoration: none;
+}
+.sub_price{
+    color: #ec7756;
+    font-size: 1.8rem;
+}
+.sub_price i{
+    padding-right: .2rem;
+}
+.cart_m{
+    padding-bottom: 5rem;
+}
+.chooseAll{
+    margin-right: .2rem!important;
+}
+.count{
+    display: none;
+}
+.sel_pro,
+.chooseAll{
+    cursor: pointer;
+}
+
+.padd{
+    margin-bottom: 6rem;
+}

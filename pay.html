@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<title>梅塞德斯—奔驰 订单支付</title>
+	<link rel="shortcut icon" href="./images/favicon.ico" >
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/base.css"/>
+	<link rel="stylesheet" href="css/pay.css"/>
+	<link rel="stylesheet" href="css/LArea.css"/>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<nav class="nav nav_shop">
+				<div class="back"> 
+					<a href="shop_car.html"><span class="glyphicon glyphicon-menu-right"></span></a>
+				</div>
+				<h2 class="text-center">订金支付</h2>
+			</nav>
+		</header>
+		<!-- 网页主体部分 -->
+		<main class="pay_m">
+			<section>
+				<h4>本次购买的产品</h4>
+				<div class="container-fluid cart_pro">
+					<div class="row">
+						<div class="col-xs-4 text-center">
+	                        <a href="view.html">
+	                            <img src="./images/c.jpg" class="img-thumbnail"/>
+	                        </a>
+                    	</div>
+                    	<div class="col-xs-7">
+	                    	<div class="c_name">
+                                <a href="view.html">
+                                    <h4>奔驰C级(运动版)</h4>
+                                </a>
+                            </div>
+                            <div class="c-price">
+                            	<i>￥</i>
+                            	<em class="unitPrice">10000.00</em>
+                            </div>
+                            <div class="qty pull-left">
+                                <label class="pull-left">数量: 1</label>
+                            </div>
+                    	</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4 text-center">
+	                        <a href="view.html">
+	                            <img src="./images/s.jpg" class="img-thumbnail"/>
+	                        </a>
+                    	</div>
+                    	<div class="col-xs-7">
+	                    	<div class="c_name">
+                                <a href="view.html">
+                                    <h4>奔驰S级(行政版)</h4>
+                                </a>
+                            </div>
+                            <div class="c-price">
+                            	<i>￥</i>
+                            	<em class="unitPrice">30000.00</em>
+                            </div>
+                            <div class="qty pull-left">
+                                <label class="pull-left">数量: 1</label>
+                            </div>
+                    	</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4 text-center">
+	                        <a href="view.html">
+	                            <img src="./images/e.jpg" class="img-thumbnail"/>
+	                        </a>
+                    	</div>
+                    	<div class="col-xs-7">
+	                    	<div class="c_name">
+                                <a href="view.html">
+                                    <h4>奔驰E级(运动版)</h4>
+                                </a>
+                            </div>
+                            <div class="c-price">
+                            	<i>￥</i>
+                            	<em class="unitPrice">10000.00</em>
+                            </div>
+                            <div class="qty pull-left">
+                                <label class="pull-left">数量: 1</label>
+                            </div>
+                    	</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-4 text-center">
+	                        <a href="view.html">
+	                            <img src="./images/GLE.jpg" class="img-thumbnail"/>
+	                        </a>
+                    	</div>
+                    	<div class="col-xs-7">
+	                    	<div class="c_name">
+                                <a href="view.html">
+                                    <h4>奔驰GLE</h4>
+                                </a>
+                            </div>
+                            <div class="c-price">
+                            	<i>￥</i>
+                            	<em class="unitPrice">10000.00</em>
+                            </div>
+                            <div class="qty pull-left">
+                                <label class="pull-left">数量: 1</label>
+                            </div>
+                    	</div>
+					</div>	
+				</div>
+			</section>
+			<section class="addr_div pay_bg">
+				<div class="addr_title clearfix">
+					<h3 class="pull-left">收货信息</h3>
+                    <span class="pull-right text-right" data-toggle="modal" data-target="#addr_modal"><i class="glyphicon glyphicon-edit"></i></span>
+				</div>
+				<div class="addr_con">
+					<address>
+                        安徽省 合肥市 高新区<br/>
+                        长江东路200号<br/>
+                        花园河畔4栋502室<br/>
+                    </address>
+				</div>
+			</section>
+			<section class="pay_bg text-center pay_price">
+				<span>商品总价：￥<b>60000.00</b></span>
+			</section>
+		</main>
+		<footer>
+            <nav class="navbar-fixed-bottom pay_btn text-center">
+                <span>确认支付</span>
+            </nav>
+        </footer>
+	</div>
+	<div class="modal fade" id="addr_modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3>添加收货地址</h4>
+            </div>
+            <form action="#">
+                <div class="modal-body">
+                    <div class="form-group clearfix">
+                        <label class="col-xs-4 control-label text-right">收货人：</label>
+                        <div class="col-xs-7">
+                            <input type="text" class="form-control" placeholder="请输入您的姓名"/>
+                        </div>
+                    </div>
+                    <div class="form-group clearfix">
+                        <label class="col-xs-4 control-label text-right">手机号：</label>
+                        <div class="col-xs-7">
+                            <input type="text" class="form-control" placeholder="请输入您的手机号"/>
+                        </div>
+                    </div>
+                    <div class="form-group clearfix">
+                        <label class="col-xs-4 control-label text-right">省市区：</label>
+                        <div class="col-xs-7">
+                            <div class="content-block">
+                                <input id="prov" type="text" readonly class="form-control" placeholder="城市选择特效"  value="广东省,深圳市,南山区">
+                                <input id="prov_value" type="hidden" value="20,234,504">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group clearfix">
+                        <label class="col-xs-4 control-label text-right">详细地址：</label>
+                        <div class="col-xs-8">
+                            <textarea class="form-control" placeholder="请输入您的详细地址"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn_confirm btn-block">确定</button>
+                    <button type="button" class="btn btn-default btn-block" data-dismiss="modal">取消</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/sea.js"></script>
+<script>
+        seajs.config({
+            base:'./js/',
+            alias:{
+               'LArea':'LArea.js',
+               'LAreaData1':'LAreaData1.js',
+               'LAreaData2':'LAreaData2.js'
+            }
+        });
+        seajs.use(['address'],function(addr){
+            addr.getAddr();
+        });
+    </script>	
+</body>
+</html>

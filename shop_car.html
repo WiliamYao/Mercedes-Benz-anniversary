@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<title>梅塞德斯—奔驰 订单</title>
+	<link rel="shortcut icon" href="./images/favicon.ico" >
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/base.css"/>
+	<link rel="stylesheet" href="css/cart.css"/>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<nav class="nav nav_shop">
+                <div class="back">
+                    <a href="product.html"><span class="glyphicon glyphicon-menu-right"></span></a>
+                </div>
+                <h2 class="text-center">订单</h2>
+            </nav>
+		</header>
+		<main>
+			<div class="container-fluid cart_pro">
+				<div class="row">
+					<div class="col-xs-1 text-center">
+						<input type="checkbox" class="sel_pro">
+					</div>
+					<div class="col-xs-3 text-center">
+						<a href="#">
+							<img src="./images/c.jpg" class="img-thumbnail">
+						</a>
+					</div>
+					<div class="col-xs-7">
+						<div class="c_name">
+							<a href="#">
+								<h4>奔驰C级运动款</h4>
+							</a>
+						</div>
+						<div class="c_price">
+							<i>￥</i><span class="unitPrice">10000</span>
+						</div>
+						<div class="qty pull-left">
+							<label class="pull-left">库存：</label>
+							<span class="desc pull-left">
+								<i class="glyphicon glyphicon-minus"></i>
+							</span>
+							<input type="text" value="1" min="1" max="999" class="pull-left num"/>
+							<span class="pull-left add"><i class="glyphicon glyphicon-plus"></i></span>
+						</div>
+						<div class="count">
+							￥<em class="tPrice">10000</em>
+						</div>
+					</div>
+					<div class="col-xs-1 text-center del">
+						<a href="javascript:void(0)">
+                            <em class="glyphicon glyphicon-trash"></em>
+                        </a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-1 text-center">
+						<input type="checkbox" class="sel_pro">
+					</div>
+					<div class="col-xs-3 text-center">
+						<a href="#">
+							<img src="./images/s.jpg" class="img-thumbnail">
+						</a>
+					</div>
+					<div class="col-xs-7">
+						<div class="c_name">
+							<a href="#">
+								<h4>奔驰S级(进口)</h4>
+							</a>
+						</div>
+						<div class="c_price">
+							<i>￥</i><span class="unitPrice">30000</span>
+						</div>
+						<div class="qty pull-left">
+							<label class="pull-left">库存：</label>
+							<span class="desc pull-left">
+								<i class="glyphicon glyphicon-minus"></i>
+							</span>
+							<input type="text" value="1" min="1" max="999" class="pull-left num"/>
+							<span class="pull-left add"><i class="glyphicon glyphicon-plus"></i></span>
+						</div>
+						<div class="count">
+							￥<em class="tPrice">30000</em>
+						</div>
+					</div>
+					<div class="col-xs-1 text-center del">
+						<a href="javascript:void(0)">
+                            <em class="glyphicon glyphicon-trash"></em>
+                        </a>
+					</div>
+				</div>
+			</div>
+			<div class="c_bg">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-3 text-center">
+							<label>支付：</label>
+						</div>
+						<div class="col-xs-4">
+							<div class="payment">微信支付</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="payment">支付宝支付</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="c_bg">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-3 text-center">
+							<label>优惠：</label>
+						</div>
+						<div class="col-xs-8">
+                            <select class="form-control">
+                                <option value="使用中">使用中</option>
+                                <option value="本次不使用">本次不使用</option>
+                            </select>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="c_bg">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-3 text-center">
+							<label>使用积分：</label>
+						</div>
+						<div class="col-xs-8">
+                             <input type="text" class="form-control" placeholder="请输入您的积分数"/><em>分</em>
+                            <p>(1000积分可抵扣1.00元，您有0积分，本次最多可使用0积分)</p>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="c_bg padd">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-3 text-center">
+                            <label>留言：</label>
+                        </div>
+                        <div class="col-xs-8 jf">
+                            <textarea class="form-control" placeholder="请输入留言信息"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</main>
+		<footer>
+			<nav class="navbar navbar-fixed-bottom cart_foot">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-4 text-left">
+                            <label><input type="checkbox" class="chooseAll"/>全选</label>
+                        </div>
+                        <div class="col-xs-4 text-center sub_price">
+                        	<i>¥</i><em>0.00</em>
+                        </div>
+                        <div class="col-xs-4 cart_btn text-center">
+                        	<a href="pay.html">支付订金</a>
+                        </div>
+					</div>
+				</div>
+			</nav>
+		</footer>
+	</div>
+
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/sea.js"></script>
+<script type="text/javascript">
+	seajs.config({
+		base:"./js",
+		alias:{
+			jquery:"jquery-1.12.3.min.js"
+		}
+	});
+
+	seajs.use(['cart'],function(cart){
+        $('.add').click(function(){
+            cart.add($(this));
+        });
+        $('.desc').click(function(){
+            cart.desc($(this));
+        });
+        $('.sel_pro').click(function(){
+            cart.price();
+        });
+        $('.del').click(function(){
+           cart.del($(this));
+        });
+        $('.chooseAll').click(function(){
+           cart.chooseAll($(this));
+        });
+
+    })
+</script>	
+</body>
+</html>

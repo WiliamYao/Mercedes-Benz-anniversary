@@ -1,0 +1,47 @@
+define(function(require,exports,module){
+
+    return{
+        showList:function(){
+            $('html,body').css('overflow-y','hidden');
+            var hh=$(window).height()+$(window).scrollTop();
+            $('.addrList').css({
+                height:hh
+            });
+            $('.addr_con').css({
+                'margin-top':$(window).scrollTop()
+            });
+            $('.addrList').show().animate({
+                left:0
+            },300);
+        },
+        hideList:function(){
+            $('html,body').css('overflow-y','scroll');
+            $('.addrList').animate({
+                left:'-100%'
+            },150,function(){
+                $(this).hide();
+            });
+        },
+        showNew:function(){
+            $('html,body').css('overflow-y','hidden');
+            var hh=$(window).height()+$(window).scrollTop();
+            $('.addrNew').css({
+                height:hh
+            });
+            $('.fm').css({
+                'margin-top':$(window).scrollTop()
+            });
+            $('.addrNew').show().animate({
+                left:0
+            },300);
+        },
+        hideNew:function(){
+            $('html,body').css('overflow-y','scroll');
+            $('.addrNew').animate({
+                left:'-100%'
+            },150,function(){
+                $(this).hide();
+            });
+        }
+    }
+})

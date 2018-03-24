@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.wrap{
+	border: 1px solid;
+	padding-top: 6rem;
+	padding-bottom: 16rem;
+}
+
+.title{
+	font-size: 17px;
+	display: block;
+	text-align: center;
+}
+
+.pro{
+	border: 1px red solid;
+	margin-top: 3rem;
+}
+
+.pay{
+	height: 5rem;
+	background: white;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.titles{
+	line-height: 5rem;
+}
+
+.titles select{
+	/*width: 65rem;*/
+}
+
+.txt{
+	display: block;
+}
+
+.txt p{
+	padding-left: 7rem;
+}
+
+.txt input{
+	/*width: 62rem;*/
+}
+
+textarea{
+	display: block;
+}
+
+
+.btn{
+	width: 5rem;
+}
+
+/*.product div{
+	border: 1px solid
+}*/
+
+.product{
+	margin-bottom: 3rem;
+}
+
+.btngroup{
+	width: 15rem;
+}
+
+.del{
+	display: block;
+	text-align: right;
+}
+
+.masg{
+	height: 5rem;
+	background: white;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+
+.masg label{
+	/*float: left;*/
+	font-weight: normal;
+	line-height: 5rem;
+}
+
+.masg textarea{
+	height: 5rem;
+	resize:none;
+}
+
+.mas{
+	height: 10rem;
+	background: white;
+	margin-top: 2rem;
+}
+
+.bot{
+	text-align: left;
+}
+
+.bot1{
+	line-height: 50px;
+	background: black
+}
